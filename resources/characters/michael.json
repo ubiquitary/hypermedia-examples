@@ -1,0 +1,11 @@
+{
+  "alias": "Michael",
+  "name": "Michael Banks",
+  "photo": "",
+  "friends": [
+    "/api/characters/Bert",
+    "/api/characters/Jane",
+    "/api/characters/Mary",
+    "/api/characters/Albert"
+  ]
+}

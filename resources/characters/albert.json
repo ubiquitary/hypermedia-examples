@@ -1,0 +1,11 @@
+{
+  "alias": "Albert",
+  "name": "Uncle Albert",
+  "photo": "",
+  "friends": [
+    "/api/characters/Bert",
+    "/api/characters/Jane",
+    "/api/characters/Michael",
+    "/api/characters/Mary"
+  ]
+}

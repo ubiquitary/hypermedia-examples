@@ -1,0 +1,26 @@
+{
+  "name": "hypermedia-examples",
+  "version": "1.0.0",
+  "description": "A single data object represented in many hypermedia formats.",
+  "main": "server.js",
+  "dependencies": {
+    "api-media-type": "^0.1.0",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubiquitary/hypermedia-examples.git"
+  },
+  "author": "Joshua T Kalis <kalisjoshua@gmail.com> (http://kalisjoshua.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ubiquitary/hypermedia-examples/issues"
+  },
+  "homepage": "https://github.com/ubiquitary/hypermedia-examples#readme"
+}

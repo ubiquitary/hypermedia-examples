@@ -1,0 +1,11 @@
+{
+  "alias": "Mary",
+  "name": "Mary Poppins",
+  "photo": "http://imgur.com/YsOds9W",
+  "friends": [
+    "/api/characters/Bert",
+    "/api/characters/Jane",
+    "/api/characters/Michael",
+    "/api/characters/Albert"
+  ]
+}
