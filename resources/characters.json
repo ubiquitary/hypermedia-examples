@@ -1,0 +1,57 @@
+[
+  {
+    "alias": "Albert",
+    "name": "Uncle Albert",
+    "photo": "http://imgur.com/wTa1SXC",
+    "friends": [
+      "/api/characters/Bert",
+      "/api/characters/Jane",
+      "/api/characters/Michael",
+      "/api/characters/Mary"
+    ]
+  },
+  {
+    "alias": "Bert",
+    "name": "Bert Van Dyke",
+    "photo": "http://imgur.com/z6ehsWD",
+    "friends": [
+      "/api/characters/Mary",
+      "/api/characters/Jane",
+      "/api/characters/Michael",
+      "/api/characters/Albert"
+    ]
+  },
+  {
+    "alias": "Jane",
+    "name": "Jane Banks",
+    "photo": "http://imgur.com/V35SD5L",
+    "friends": [
+      "/api/characters/Bert",
+      "/api/characters/Mary",
+      "/api/characters/Michael",
+      "/api/characters/Albert"
+    ]
+  },
+  {
+    "alias": "Mary",
+    "name": "Mary Poppins",
+    "photo": "http://imgur.com/sY19R29",
+    "friends": [
+      "/api/characters/Bert",
+      "/api/characters/Jane",
+      "/api/characters/Michael",
+      "/api/characters/Albert"
+    ]
+  },
+  {
+    "alias": "Michael",
+    "name": "Michael Banks",
+    "photo": "http://imgur.com/WAfOmxZ",
+    "friends": [
+      "/api/characters/Bert",
+      "/api/characters/Jane",
+      "/api/characters/Mary",
+      "/api/characters/Albert"
+    ]
+  }
+]
