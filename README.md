@@ -6,20 +6,20 @@ A single data object represented in many hypermedia formats.
 
   1. Provide a comparison basis of differing hypermedia formats
     + Create an API which will provide common data in various formats
-      - [x] [Collection+JSON](http://amundsen.com/media-types/collection/) [+](soofaloofa)
-      - [x] [HAL+JSON](http://stateless.co/hal_specification.html) [+](soofaloofa)
-      - [ ] [JSON-LD](http://json-ld.org/) [+](soofaloofa)
-      - [ ] [Siren](https://github.com/kevinswiber/siren) [*](rows-idls)
-      - [ ] [Hydra](http://www.markus-lanthaler.com/hydra/) (?) [*](rows-idls)
-      - [ ] [ALPS](http://alps.io/spec/) (?) [*](rows-idls)
-      - [ ] [Atom Service Docs](https://tools.ietf.org/html/rfc5023#section-8) (?) [*](rows-idls)
+      - [x] [Collection+JSON][cj-link]
+      - [x] [HAL+JSON][hal-link]
+      - [ ] [JSON-LD][ld-link]
+      - [ ] [Siren][siren-link]
+      - [ ] [Hydra][hydra-link]
     + Change between formats using the Accept header option
+    + [Hypermedia Formats](https://gist.github.com/soofaloofa/9350847)
+    + [Description Languages](http://blog.sgo.to/2014/03/rows-and-idls.html)
   2. Show the "layering in" of affordances
     1. [x] Hyperlinks (links)
     2. [ ] Actions (forms)
   3. Brainstorm a way to map affordances onto representations
     + Affordances - actions that can be taken on a resource
-      - Using (possibly [self-descriptive](self-desc)) schemas
+      - Using (possibly [self-descriptive]) schemas
 
 ## Usage
 
@@ -33,6 +33,9 @@ A single data object represented in many hypermedia formats.
     + GET http://localhost:8080/api/characters/mary
     + GET http://localhost:8080/api/characters/michael
 
-[rows-idls]: (http://blog.sgo.to/2014/03/rows-and-idls.html)
-[self-desc]: (http://snowplowanalytics.com/blog/2014/05/15/introducing-self-describing-jsons/)
-[soofaloofa]: (https://gist.github.com/soofaloofa/9350847)
+[cj-link]: http://amundsen.com/media-types/collection/
+[hal-link]: http://stateless.co/hal_specification.html
+[hydra-link]: http://www.markus-lanthaler.com/hydra/
+[ld-link]: http://json-ld.org/
+[self-descriptive]: http://snowplowanalytics.com/blog/2014/05/15/introducing-self-describing-jsons/
+[siren-link]: https://github.com/kevinswiber/siren
