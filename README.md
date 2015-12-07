@@ -11,6 +11,9 @@ A single data object represented in many hypermedia formats.
       - [ ] [JSON-LD][ld-link]
       - [ ] [Siren][siren-link]
       - [ ] [Hydra][hydra-link]
+      - [ ] [JSON API][json-api-link]
+      - [ ] Uber
+      - [ ] Mason
     + Change between formats using the Accept header option
     + [Hypermedia Formats](https://gist.github.com/soofaloofa/9350847)
     + [Description Languages](http://blog.sgo.to/2014/03/rows-and-idls.html)
@@ -36,6 +39,7 @@ A single data object represented in many hypermedia formats.
 [cj-link]: http://amundsen.com/media-types/collection/
 [hal-link]: http://stateless.co/hal_specification.html
 [hydra-link]: http://www.markus-lanthaler.com/hydra/
+[json-api-link]: http://jsonapi.org/
 [ld-link]: http://json-ld.org/
 [self-descriptive]: http://snowplowanalytics.com/blog/2014/05/15/introducing-self-describing-jsons/
 [siren-link]: https://github.com/kevinswiber/siren
