@@ -1,0 +1,29 @@
+{
+  "_links": {
+    "self": {
+      "href": "{{root}}"
+    }
+  },
+  "size": {{data.length}},
+  "_embedded": {
+    "characters": [
+      {{#each items}}
+      {
+        "alias": "{{alias}}",
+        "name": "{{name}}",
+        "photo": "{{photo}}",
+        "friends": [
+          {{#each friends}}
+          "{{.}}"{{#unless @last}},{{/unless}}
+          {{/each}}
+        ],
+        "_links": {
+          "self": {
+            "href": "{{../root}}/{{alias}}"
+          }
+        }
+      }{{#unless @last}},{{/unless}}
+      {{/each}}
+    ]
+  }
+}

@@ -6,7 +6,8 @@
   "dependencies": {
     "api-media-type": "^0.1.0",
     "body-parser": "^1.14.1",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "handlebars": "^4.0.5"
   },
   "devDependencies": {},
   "scripts": {

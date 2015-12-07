@@ -1,0 +1,34 @@
+{
+  "collection": {
+    "version": "1.0",
+    "href": "{{root}}",
+    "items": [
+      {{#each items}}
+      {
+        "data": [
+          {
+            "name": "alias",
+            "value": "{{alias}}"
+          },
+          {
+            "name": "name",
+            "value": "{{name}}"
+          }
+        ],
+        "links": [
+          {{#each friends}}
+          {
+            "rel": "friends",
+            "href": "{{.}}"
+          },
+          {{/each}}
+          {
+            "rel": "photo",
+            "href": "{{photo}}"
+          }
+        ]
+      }{{#unless @last}},{{/unless}}
+      {{/each}}
+    ]
+  }
+}
